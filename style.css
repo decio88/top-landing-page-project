@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin: 0;
+    padding: 0 180px;
+}
+
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    height: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header .container {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 180px;
+}
+
+.header .container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header .container img {
+    background-color: gray;
+    flex: 0 0 350px;
+    height: 130px;
+    align-self: center;
+}
+
+.header .container button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+.box-title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.boxes .container { 
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.boxes .container img {
+    border: #3882f6 solid;
+    border-radius: 10px;
+    height: 130px;
+    width: 130px;
+}
+
+.boxes .container p {
+    width: 130px;
+    text-align: center;
+    color: #1f2937;
+    font-size: 14px;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 180px;
+    background-color: #e5e7eb;
+    align-items: end;
+}
+
+.quote .container :nth-child(1) {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-left: 100px;
+}
+
+.quote .container :nth-child(2) {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.calltoaction .container {
+    display: flex;
+    margin: 50px 180px;
+    padding: 30px 90px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-between;
+    color: white;
+}
+
+.calltoaction .container button {
+    background-color: #3882f6;
+    border: white solid;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer .container {
+    display: flex;
+    padding: 30px 180px;
+    background-color: #1f2937;
+    justify-content: center;
+    color: white;
+}
