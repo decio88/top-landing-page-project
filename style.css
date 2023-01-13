@@ -6,6 +6,9 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .container {
@@ -148,4 +151,9 @@ a {
     background-color: #1f2937;
     justify-content: center;
     color: white;
+    margin-top: auto;
+}
+
+.space {
+    flex-grow: 1;
 }
